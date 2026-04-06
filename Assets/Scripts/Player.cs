@@ -1,32 +1,38 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    public float speed = 5f;
+    [SerializeField] private float speed = 5f;
 
+    private Rigidbody2D rb;
     private SpriteRenderer sr;
-    private Animator anim;
+    private Animator animator;
 
-    void Start()
+    private Vector2 movement;
+
+    private void Awake()
     {
+        rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
-    void Update()
+    private void Update()
     {
-        float moveX = Input.GetAxis("Horizontal");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+        movement = movement.normalized;
 
-        
-        transform.position += new Vector3(moveX, 0f, 0f) * speed * Time.deltaTime;
-
-        
-        anim.SetFloat("Speed", Mathf.Abs(moveX));
-
-       
-        if (moveX > 0)
+        if (movement.x > 0)
             sr.flipX = false;
-        else if (moveX < 0)
+        else if (movement.x < 0)
             sr.flipX = true;
+
+        animator.SetFloat("Speed", movement.magnitude);
+    }
+
+    private void FixedUpdate()
+    {
+        rb.linearVelocity = movement * speed;
     }
 }
