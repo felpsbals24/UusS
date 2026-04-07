@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 523e26f3d96ddd04db124b20e7d6455d
+guid: b783a75c41aae764eaa2f2c03b721496
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1496839540990087025
-    second: AndarFrente_0
+      213: 3322539809060303612
+    second: AndarCosta2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AndarFrente_0
+      name: AndarCosta2_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 14
         y: 0
-        width: 74
-        height: 192
+        width: 68
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f0976c1a7d5c410800000000000000
-      internalID: 1496839540990087025
+      spriteID: cf2322f4a580c1e20800000000000000
+      internalID: 3322539809060303612
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AndarFrente_0: 1496839540990087025
+      AndarCosta2_0: 3322539809060303612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

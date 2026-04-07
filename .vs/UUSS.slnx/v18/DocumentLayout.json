@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "E:\\Unity\\Projetos\\UUSS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\deathenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyspaws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspaws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemySpaws.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemySpaws.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpaws.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemySpaws.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpaws.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T04:01:57.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DeathEnemy.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DeathEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeathEnemy.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DeathEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeathEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T04:00:59.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:50:27.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:21:07.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:31:32.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Player.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T15:55:32.647Z",
               "EditorCaption": ""
