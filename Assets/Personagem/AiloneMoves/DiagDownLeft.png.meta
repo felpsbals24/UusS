@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: e7d97a4fde097dc408cf4029dce77974
+guid: 101fc36aad8ac3540819fde25c294a9c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6439522612310314372
-    second: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_0
+      213: 1997077350859936141
+    second: DiagDownLeft_0
   - first:
-      213: 3962525083329850611
-    second: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_1
+      213: 9194852499521950700
+    second: DiagDownLeft_1
   - first:
-      213: 6814536481452202192
-    second: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_2
+      213: -1604066603087303812
+    second: DiagDownLeft_2
   - first:
-      213: 7579950519094171028
-    second: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_3
+      213: -9193700915090919533
+    second: DiagDownLeft_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_0
+      name: DiagDownLeft_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 9
-        width: 16
-        height: 31
+        x: 14
+        y: 5
+        width: 24
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,19 +124,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48d0ad5a2b7cd5950800000000000000
-      internalID: 6439522612310314372
+      spriteID: d811cf6054b07bb10800000000000000
+      internalID: 1997077350859936141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_1
+      name: DiagDownLeft_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 9
-        width: 16
+        x: 62
+        y: 6
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce35e14c1adaa9f70800000000000000
+      internalID: 9194852499521950700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagDownLeft_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 8
+        width: 24
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -146,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fc6375a197bdf630800000000000000
-      internalID: 3962525083329850611
+      spriteID: c7be9e65ce53db9e0800000000000000
+      internalID: -1604066603087303812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_2
+      name: DiagDownLeft_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 9
-        width: 16
-        height: 33
+        x: 158
+        y: 4
+        width: 22
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,30 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d816ed23d8129e50800000000000000
-      internalID: 6814536481452202192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_3
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 9
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49555a936d4613960800000000000000
-      internalID: 7579950519094171028
+      spriteID: 39f62d06ab9696080800000000000000
+      internalID: -9193700915090919533
       vertices: []
       indices: 
       edges: []
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_0: 6439522612310314372
-      Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_1: 3962525083329850611
-      Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_2: 6814536481452202192
-      Anthropomorphic_unicorn_character_with_a_muscular_breathing-idle_south-ezgif.com-gif-to-sprite-converter_3: 7579950519094171028
+      DiagDownLeft_0: 1997077350859936141
+      DiagDownLeft_1: 9194852499521950700
+      DiagDownLeft_2: -1604066603087303812
+      DiagDownLeft_3: -9193700915090919533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
