@@ -721,30 +721,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 568120692}
-  - component: {fileID: 568120691}
   m_Layer: 0
   m_Name: WaveSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &568120691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568120690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 314001ffac48a634fa13a789c97023f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WaveSpawner
-  enemyPrefab: {fileID: 2785017259357118868, guid: 809cbff893c058746b32daaa046f2cbc, type: 3}
-  enemyCount: 20
-  spawnDelay: 0.5
-  spawnRadius: 6
+  m_IsActive: 0
 --- !u!4 &568120692
 Transform:
   m_ObjectHideFlags: 0
