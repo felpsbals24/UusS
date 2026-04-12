@@ -12,10 +12,8 @@ GameObject:
   - component: {fileID: 7453534900809402235}
   - component: {fileID: 6289239116832931677}
   - component: {fileID: 5724190375263120667}
-  - component: {fileID: 1263239153455059883}
   - component: {fileID: 8968641147740509563}
-  - component: {fileID: 6873196552981711887}
-  - component: {fileID: 3180736713124704670}
+  - component: {fileID: 5261398696279253199}
   m_Layer: 3
   m_Name: BearEnemy
   m_TagString: Enemy
@@ -85,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 99
+  m_SortingOrder: 98
   m_Sprite: {fileID: -6014571485054149741, guid: 1e53f1f8c9b72f44bb69dbda0e05e0e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -161,19 +159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1263239153455059883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2785017259357118868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b84f6946eef3f314e98d1168d63d304e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BearEnemy
-  speed: 2
 --- !u!95 &8968641147740509563
 Animator:
   serializedVersion: 7
@@ -184,7 +169,7 @@ Animator:
   m_GameObject: {fileID: 2785017259357118868}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 185cf133e36f9bd499cba2a8b552d9ff, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7841510cd9c4d841920ab4efd870617, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -196,7 +181,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6873196552981711887
+--- !u!114 &5261398696279253199
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,31 +190,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2785017259357118868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98e4cc63c1d93ec4a90ec30b1f22d58c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d220bc94808f0b45b0c99f5f66a48dc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyBearController
-  alvo: {fileID: 0}
-  velocidade: 2.2
-  distanciaParada: 0.15
-  raioSeparacao: 0.75
-  forcaSeparacao: 1.35
-  camadaUrsos:
-    serializedVersion: 2
-    m_Bits: 0
---- !u!114 &3180736713124704670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2785017259357118868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bbc983212016f24a86e274d5439dabe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 1
-  deathDuration: 0.5
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
+  speed: 4
 --- !u!1 &8729111089274292064
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +204,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3857110974998541852}
   - component: {fileID: 6932917868299207915}
-  - component: {fileID: 5507970860426316889}
   m_Layer: 6
   m_Name: BearTrigger
   m_TagString: Untagged
@@ -300,16 +263,3 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.010371327}
   m_Size: {x: 0.5, y: 0.7026818}
   m_Direction: 0
---- !u!114 &5507970860426316889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8729111089274292064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79eb1587b7fd92047a49a8c2378febff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyTrigger
-  enemyHealth: {fileID: 0}

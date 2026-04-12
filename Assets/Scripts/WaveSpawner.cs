@@ -1,46 +1,46 @@
-using System.Collections;
 using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private int enemyCount = 20;
-    [SerializeField] private float spawnDelay = 0.5f;
-    [SerializeField] private float spawnRadius = 6f;
+    [Header("Configurações do Spawner")]
+    public GameObject bearPrefab;
+    public float spawnsPerSecond = 2f;
+    public float spawnRadius = 12f;
 
-    private Transform player;
+    // NOVA PARTE: Limites de inimigos
+    public int maxBears = 20; // Quantidade máxima a ser criada
+    private int bearsSpawned = 0; // Contador de quantos já nasceram
 
-    private void Start()
+    private Transform playerTransform;
+    private float nextSpawnTime;
+
+    void Start()
     {
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-        if (playerObject != null)
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
         {
-            player = playerObject.transform;
-            StartCoroutine(SpawnWave());
-        }
-        else
-        {
-            Debug.LogError("Nenhum objeto com tag Player foi encontrado.");
-        }
-    }
-
-    private IEnumerator SpawnWave()
-    {
-        for (int i = 0; i < enemyCount; i++)
-        {
-            SpawnEnemy();
-            yield return new WaitForSeconds(spawnDelay);
+            playerTransform = playerObj.transform;
         }
     }
 
-    private void SpawnEnemy()
+    void Update()
     {
-        if (player == null || enemyPrefab == null) return;
+        
+        if (bearsSpawned < maxBears && Time.time >= nextSpawnTime && playerTransform != null)
+        {
+            SpawnBear();
+            bearsSpawned++; // Aumenta o contador (+1)
+            nextSpawnTime = Time.time + (1f / spawnsPerSecond);
+        }
+    }
 
-        Vector2 randomDirection = Random.insideUnitCircle.normalized;
-        Vector2 spawnPosition = (Vector2)player.position + randomDirection * spawnRadius;
+    void SpawnBear()
+    {
+        float randomAngle = Random.Range(0f, 360f);
+        float angleRad = randomAngle * Mathf.Deg2Rad;
+        Vector2 spawnDirection = new Vector2(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
+        Vector2 spawnPosition = (Vector2)playerTransform.position + (spawnDirection * spawnRadius);
 
-        Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        Instantiate(bearPrefab, spawnPosition, Quaternion.identity);
     }
 }
