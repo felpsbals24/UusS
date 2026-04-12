@@ -8,7 +8,7 @@ public class EnemyAI : MonoBehaviour
     private Transform playerTransform;
     private Rigidbody2D rb;
 
-    // Novas variáveis para Animação e Imagem
+   
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
@@ -29,28 +29,28 @@ public class EnemyAI : MonoBehaviour
     {
         if (playerTransform != null)
         {
-            // Descobre a direção
+            
             Vector2 direction = (playerTransform.position - transform.position).normalized;
 
-            // Move o urso
+            
             Vector2 newPosition = rb.position + direction * speed * Time.fixedDeltaTime;
             rb.MovePosition(newPosition);
 
-            // --- COMUNICAÇÃO COM O ANIMATOR ---
+            
             if (animator != null)
             {
                 animator.SetFloat("MoveX", direction.x);
                 animator.SetFloat("MoveY", direction.y);
             }
 
-            // Vira o desenho do urso para a esquerda ou direita
+            
             if (direction.x < 0)
             {
-                spriteRenderer.flipX = true; // Olhando pra esquerda
+                spriteRenderer.flipX = true; 
             }
             else if (direction.x > 0)
             {
-                spriteRenderer.flipX = false; // Olhando pra direita
+                spriteRenderer.flipX = false; 
             }
         }
     }
@@ -59,18 +59,22 @@ public class EnemyAI : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // 1. Aciona o gatilho da Morte no Animator
+           
             if (animator != null)
             {
                 animator.SetTrigger("IsDead");
             }
 
-            // 2. Desliga a física e a inteligência do urso pra ele parar de andar
             this.enabled = false;
             rb.simulated = false;
 
-            // 3. Destrói o urso APÓS 0.5 segundos (tempo pra animação tocar)
-            // OBS: Se a sua animação for mais longa, mude o 0.5f para 1.0f, etc.
+            
+            if (GerenciadorDeJogo.instancia != null)
+            {
+                GerenciadorDeJogo.instancia.UrsoMorreu();
+            }
+            
+
             Destroy(gameObject, 0.5f);
         }
     }
