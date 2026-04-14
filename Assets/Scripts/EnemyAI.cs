@@ -2,80 +2,59 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    [Header("Configurações")]
-    public float speed = 2.5f;
+    public float velocidade = 2f;
+    public float quantidadeAcucar = 10f;
+    public bool spriteOriginalViradoParaEsquerda = false; // MARQUE ISSO NO BOMBER!
 
-    private Transform playerTransform;
-    private Rigidbody2D rb;
-
-   
+    private Transform player;
+    private EnemyHealth saude;
+    private bool atacou = false;
     private Animator animator;
-    private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        saude = GetComponent<EnemyHealth>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null)
-        {
-            playerTransform = playerObj.transform;
-        }
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
     {
-        if (playerTransform != null)
+        if (player != null && !atacou && rb != null)
         {
-            
-            Vector2 direction = (playerTransform.position - transform.position).normalized;
+            Vector2 direcao = (player.position - transform.position).normalized;
 
-            
-            Vector2 newPosition = rb.position + direction * speed * Time.fixedDeltaTime;
-            rb.MovePosition(newPosition);
-
-            
             if (animator != null)
             {
-                animator.SetFloat("MoveX", direction.x);
-                animator.SetFloat("MoveY", direction.y);
+                animator.SetFloat("Horizontal", direcao.x);
+                animator.SetFloat("Vertical", direcao.y);
             }
 
-            
-            if (direction.x < 0)
+            float escalaX = direcao.x < 0 ? -1f : 1f;
+
+          
+            if (spriteOriginalViradoParaEsquerda)
             {
-                spriteRenderer.flipX = true; 
+                escalaX *= -1f;
             }
-            else if (direction.x > 0)
-            {
-                spriteRenderer.flipX = false; 
-            }
+
+            transform.localScale = new Vector3(escalaX, 1, 1);
+
+            Vector2 novaPosicao = Vector2.MoveTowards(rb.position, player.position, velocidade * Time.fixedDeltaTime);
+            rb.MovePosition(novaPosicao);
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !atacou)
         {
-           
-            if (animator != null)
-            {
-                animator.SetTrigger("IsDead");
-            }
-
-            this.enabled = false;
-            rb.simulated = false;
-
-            
-            if (GerenciadorDeJogo.instancia != null)
-            {
-                GerenciadorDeJogo.instancia.UrsoMorreu();
-            }
-            
-
-            Destroy(gameObject, 0.5f);
+            atacou = true;
+            SistemaDeVida vidaPlayer = collision.gameObject.GetComponent<SistemaDeVida>();
+            if (vidaPlayer != null) vidaPlayer.ReceberAcucar(quantidadeAcucar);
+            if (saude != null) saude.TomarDano(9999);
         }
     }
 }

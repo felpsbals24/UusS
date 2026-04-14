@@ -1,49 +1,98 @@
 using UnityEngine;
-using TMPro; 
+using TMPro;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GerenciadorDeJogo : MonoBehaviour
 {
-    
     public static GerenciadorDeJogo instancia;
 
-    [Header("Configurações da Fase")]
-    public int ursosRestantes = 20; 
+    public int inimigosPorOnda = 20;
+    private int inimigosRestantes;
+    public int ondaAtual = 1;
 
-    [Header("Interface (UI)")]
-    public TextMeshProUGUI textoContador; 
+    public WaveSpawner spawner;
+
+    public TextMeshProUGUI textoContador;
+    public TextMeshProUGUI textoOndasVencidas; // NOVO
+    public TextMeshProUGUI textoMensagemCentro;
+    public GameObject painelGameOver;
+    public GameObject hudGeral;
 
     void Awake()
     {
-      
         instancia = this;
+        Time.timeScale = 1f;
     }
 
     void Start()
     {
-       
+        textoMensagemCentro.gameObject.SetActive(false);
+        if (painelGameOver != null) painelGameOver.SetActive(false);
+        if (hudGeral != null) hudGeral.SetActive(true);
+
+        IniciarOnda(inimigosPorOnda);
+    }
+
+    public void IniciarOnda(int quantidade)
+    {
+        inimigosRestantes = quantidade;
+        spawner.IniciarNovaOnda(quantidade, ondaAtual);
         AtualizarTexto();
     }
 
-   
     public void UrsoMorreu()
     {
-        ursosRestantes--; 
+        inimigosRestantes--;
 
-        if (ursosRestantes <= 0)
+        if (inimigosRestantes <= 0)
         {
-            ursosRestantes = 0;
-            Debug.Log("Você sobreviveu à horda de ursos!");
-           
+            inimigosRestantes = 0;
+            ondaAtual++; // Subiu a onda, logo venceu a anterior
+            StartCoroutine(ContagemRegressivaProximaOnda());
         }
 
-        AtualizarTexto(); 
+        AtualizarTexto();
     }
 
     void AtualizarTexto()
     {
         if (textoContador != null)
+            textoContador.text = "Inimigos Restantes: " + inimigosRestantes;
+
+        if (textoOndasVencidas != null)
+            textoOndasVencidas.text = "Ondas Vencidas: " + (ondaAtual - 1);
+    }
+
+    IEnumerator ContagemRegressivaProximaOnda()
+    {
+        textoMensagemCentro.gameObject.SetActive(true);
+        for (int i = 5; i > 0; i--)
         {
-            textoContador.text = "Ursos Restantes: " + ursosRestantes;
+            textoMensagemCentro.text = "Nova onda em: " + i;
+            yield return new WaitForSeconds(1f);
         }
+        textoMensagemCentro.gameObject.SetActive(false);
+        inimigosPorOnda += 5;
+        IniciarOnda(inimigosPorOnda);
+    }
+
+    public void MostrarGameOver()
+    {
+        if (painelGameOver != null) painelGameOver.SetActive(true);
+        if (hudGeral != null) hudGeral.SetActive(false);
+        Time.timeScale = 0f;
+    }
+
+    public void ReiniciarFase()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void VoltarMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
     }
 }

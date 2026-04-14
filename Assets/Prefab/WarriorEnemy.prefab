@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 5724190375263120667}
   - component: {fileID: 8968641147740509563}
   - component: {fileID: 5261398696279253199}
-  - component: {fileID: 7964024599539179712}
+  - component: {fileID: -8953449371986063290}
   m_Layer: 3
-  m_Name: BearEnemy
+  m_Name: WarriorEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 2785017259357118868}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.75, y: -4.21, z: 0}
+  m_LocalPosition: {x: 7.731, y: -4.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 98
-  m_Sprite: {fileID: -6014571485054149741, guid: 1e53f1f8c9b72f44bb69dbda0e05e0e9, type: 3}
+  m_Sprite: {fileID: 7818313002665463614, guid: db0c9fbd958249c49b1779c9f1250563, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -130,8 +130,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5546875, y: 0.75}
+  m_Offset: {x: 0, y: -0.016777277}
+  m_Size: {x: 0.5546875, y: 0.9261632}
   m_Direction: 0
 --- !u!50 &5724190375263120667
 Rigidbody2D:
@@ -170,7 +170,7 @@ Animator:
   m_GameObject: {fileID: 2785017259357118868}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b7841510cd9c4d841920ab4efd870617, type: 2}
+  m_Controller: {fileID: 22100000, guid: 8cc3ce094e3e88a4899a5bc116073e7c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -194,9 +194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d220bc94808f0b45b0c99f5f66a48dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
-  velocidade: 1.5
+  velocidade: 1.7
   quantidadeAcucar: 10
---- !u!114 &7964024599539179712
+--- !u!114 &-8953449371986063290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e38d9acbb3e6534797ee2659a0a253d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  vidaMaxima: 10
+  vidaMaxima: 15
 --- !u!1 &8729111089274292064
 GameObject:
   m_ObjectHideFlags: 0

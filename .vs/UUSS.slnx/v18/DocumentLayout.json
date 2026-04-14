@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity\\Projetos\\UUSS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\gerenciadordejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WaveSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemybearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +41,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BearEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BearEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WaveSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GerenciadorDeJogo.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeJogo.cs",
               "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorDeJogo.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T22:04:46.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
@@ -89,18 +93,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T03:44:16.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WaveSpawner.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T15:43:52.273Z"
             },
             {
               "$type": "Document",
@@ -173,6 +165,31 @@
               "ViewState": "AgIAABMAAAAAAAAAAAAMwCkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T15:34:35.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T00:56:19.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:43:52.273Z"
             }
           ]
         }
