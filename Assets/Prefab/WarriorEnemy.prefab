@@ -194,8 +194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d220bc94808f0b45b0c99f5f66a48dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
-  velocidade: 1.7
+  velocidade: 1.4
   quantidadeAcucar: 10
+  spriteOriginalViradoParaEsquerda: 0
 --- !u!114 &-8953449371986063290
 MonoBehaviour:
   m_ObjectHideFlags: 0

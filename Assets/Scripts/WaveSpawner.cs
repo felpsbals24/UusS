@@ -1,16 +1,29 @@
 using UnityEngine;
+using System.Collections.Generic;
+
+[System.Serializable]
+public class ConfiguracaoDaOnda
+{
+    public string nomeDaOnda;  
+    public GameObject[] inimigosDestaOnda; 
+}
 
 public class WaveSpawner : MonoBehaviour
 {
-    public GameObject[] prefabsInimigos; // 0:Verde, 1:Warrior, 2:Shield, 3:Bomber
+    [Header("Configurações de Hordas")]
+    public List<ConfiguracaoDaOnda> hordasCustomizadas;  
 
-    public int maxBears = 20;
-    public int bearsSpawned = 0;
-    private int nivelDaOndaAtual = 1;
+    [Header("Inimigos para Ondas Infinitas")]
+    public GameObject[] todosOsInimigos;  
 
+    [Header("Configurações de Spawn")]
     public float tempoEntreSpawns = 1.5f;
-    private float tempoAtual = 0f;
     public float raioDeSpawn = 10f;
+
+    private int maxBears;
+    private int bearsSpawned;
+    private int nivelDaOndaAtual = 1;
+    private float tempoAtual = 0f;
     private Transform player;
 
     void Start()
@@ -36,30 +49,43 @@ public class WaveSpawner : MonoBehaviour
     {
         maxBears = quantidadeDeUrsos;
         bearsSpawned = 0;
-        tempoAtual = 0f;
         nivelDaOndaAtual = onda;
+        tempoAtual = 0f;
     }
 
     void SpawnBear()
     {
-        if (prefabsInimigos.Length < 4 || player == null) return;
+        if (player == null) return;
 
-        int inimigoSorteado = 0;
+        GameObject prefabParaInstanciar = null;
+        int indiceDaHorda = nivelDaOndaAtual - 1;
 
-        // LÓGICA DE PROGRESSÃO:
-        if (nivelDaOndaAtual == 1)
-            inimigoSorteado = 0; // Só Simples
-        else if (nivelDaOndaAtual == 2)
-            inimigoSorteado = 1; // Só Warrior
-        else if (nivelDaOndaAtual == 3)
-            inimigoSorteado = Random.Range(2, 4); // Shield (2) ou Bomber (3)
+         
+        if (indiceDaHorda < hordasCustomizadas.Count)
+        {
+             
+            GameObject[] listaDaOnda = hordasCustomizadas[indiceDaHorda].inimigosDestaOnda;
+
+            if (listaDaOnda.Length > 0)
+            {
+                prefabParaInstanciar = listaDaOnda[Random.Range(0, listaDaOnda.Length)];
+            }
+        }
         else
-            inimigoSorteado = Random.Range(0, prefabsInimigos.Length); // Todos Aleatórios
+        {
+             
+            if (todosOsInimigos.Length > 0)
+            {
+                prefabParaInstanciar = todosOsInimigos[Random.Range(0, todosOsInimigos.Length)];
+            }
+        }
 
-        Vector2 direcaoAleatoria = Random.insideUnitCircle.normalized;
-        Vector2 posicaoAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
-
-        Instantiate(prefabsInimigos[inimigoSorteado], posicaoAleatoria, Quaternion.identity);
-        bearsSpawned++;
+        if (prefabParaInstanciar != null)
+        {
+            Vector2 direcaoAleatoria = Random.insideUnitCircle.normalized;
+            Vector2 posicaoAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
+            Instantiate(prefabParaInstanciar, posicaoAleatoria, Quaternion.identity);
+            bearsSpawned++;
+        }
     }
 }

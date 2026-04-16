@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: 8b404cdd32359bc40b9c4906501291b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3345635881204340326
+    second: Insulina_Bar Completo2_0
+  - first:
+      213: 3910395710477555439
+    second: Insulina_Bar Completo2_1
+  - first:
+      213: 3012940682743995493
+    second: Insulina_Bar Completo2_2
+  - first:
+      213: -2815384046481884312
+    second: Insulina_Bar Completo2_3
+  - first:
+      213: -4035708566509764304
+    second: Insulina_Bar Completo2_4
+  - first:
+      213: 6704222842733686244
+    second: Insulina_Bar Completo2_5
+  - first:
+      213: -650920616798671214
+    second: Insulina_Bar Completo2_6
+  - first:
+      213: -7360133340065313534
+    second: Insulina_Bar Completo2_7
+  - first:
+      213: -4566380928731989611
+    second: Insulina_Bar Completo2_8
+  - first:
+      213: 5448254681501589047
+    second: Insulina_Bar Completo2_9
+  - first:
+      213: 1649590809343258151
+    second: Insulina_Bar Completo2_10
+  - first:
+      213: 4061422579250570359
+    second: Insulina_Bar Completo2_11
+  - first:
+      213: 3949956236811856166
+    second: Insulina_Bar Completo2_12
+  - first:
+      213: 6270482334469165403
+    second: Insulina_Bar Completo2_13
+  - first:
+      213: -5034554998649163197
+    second: Insulina_Bar Completo2_14
+  - first:
+      213: 7895735990534752437
+    second: Insulina_Bar Completo2_15
+  - first:
+      213: 5814294780235069724
+    second: Insulina_Bar Completo2_16
+  - first:
+      213: 4360674178451001319
+    second: Insulina_Bar Completo2_17
+  - first:
+      213: -8219305184639984380
+    second: Insulina_Bar Completo2_18
+  - first:
+      213: 2466819151643189210
+    second: Insulina_Bar Completo2_19
+  - first:
+      213: 7217675254713568549
+    second: Insulina_Bar Completo2_20
+  - first:
+      213: -5333280508604622801
+    second: Insulina_Bar Completo2_21
+  - first:
+      213: 6836642478445282905
+    second: Insulina_Bar Completo2_22
+  - first:
+      213: 4853166842712975796
+    second: Insulina_Bar Completo2_23
+  - first:
+      213: -3453035297342236103
+    second: Insulina_Bar Completo2_24
+  - first:
+      213: -3625009850819439237
+    second: Insulina_Bar Completo2_25
+  - first:
+      213: 9023650343418090416
+    second: Insulina_Bar Completo2_26
+  - first:
+      213: 1932346116906690687
+    second: Insulina_Bar Completo2_27
+  - first:
+      213: 1713842762974188760
+    second: Insulina_Bar Completo2_28
+  - first:
+      213: 5053987749968642256
+    second: Insulina_Bar Completo2_29
+  - first:
+      213: 162026702230582811
+    second: Insulina_Bar Completo2_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99a30954e9e191d0800000000000000
+      internalID: -3345635881204340326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6d9363e24844630800000000000000
+      internalID: 3910395710477555439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c5744769d10d920800000000000000
+      internalID: 3012940682743995493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b3523502fbde8d0800000000000000
+      internalID: -2815384046481884312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0314f2cd0784ef7c0800000000000000
+      internalID: -4035708566509764304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed633ca72f2a0d50800000000000000
+      internalID: 6704222842733686244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eacb2d52777f6f0800000000000000
+      internalID: -650920616798671214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dc5ed09bd8bd990800000000000000
+      internalID: -7360133340065313534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599bfc13db4f0a0c0800000000000000
+      internalID: -4566380928731989611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ed2c844c61c9b40800000000000000
+      internalID: 5448254681501589047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e67a7e91684e610800000000000000
+      internalID: 1649590809343258151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7742bf641521d5830800000000000000
+      internalID: 4061422579250570359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6296285054011d630800000000000000
+      internalID: 3949956236811856166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b519564f57a350750800000000000000
+      internalID: 6270482334469165403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342795727eaa12ab0800000000000000
+      internalID: -5034554998649163197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 76
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8471ccc0a439d60800000000000000
+      internalID: 7895735990534752437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19b1531c4680b050800000000000000
+      internalID: 5814294780235069724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef4acbbf0a348c30800000000000000
+      internalID: 4360674178451001319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dd1097b792fed80800000000000000
+      internalID: -8219305184639984380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf92dad2f6eb3220800000000000000
+      internalID: 2466819151643189210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d445d37655a2460800000000000000
+      internalID: 7217675254713568549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f285b1562a16cf5b0800000000000000
+      internalID: -5333280508604622801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956c310bc12a0ee50800000000000000
+      internalID: 6836642478445282905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b96c9fb789e95340800000000000000
+      internalID: 4853166842712975796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ad70921ba5410d0800000000000000
+      internalID: -3453035297342236103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b759d9e2fb061bdc0800000000000000
+      internalID: -3625009850819439237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b354c09d227a3d70800000000000000
+      internalID: 9023650343418090416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_27
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7824592e8211da10800000000000000
+      internalID: 1932346116906690687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d453ff99eac8c710800000000000000
+      internalID: 1713842762974188760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_29
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d08e08d41f532640800000000000000
+      internalID: 5053987749968642256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar Completo2_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 12
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16f49e5d62af3200800000000000000
+      internalID: 162026702230582811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e398b0b20f9149547a98288d935e28b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Insulina_Bar Completo2_0: -3345635881204340326
+      Insulina_Bar Completo2_1: 3910395710477555439
+      Insulina_Bar Completo2_10: 1649590809343258151
+      Insulina_Bar Completo2_11: 4061422579250570359
+      Insulina_Bar Completo2_12: 3949956236811856166
+      Insulina_Bar Completo2_13: 6270482334469165403
+      Insulina_Bar Completo2_14: -5034554998649163197
+      Insulina_Bar Completo2_15: 7895735990534752437
+      Insulina_Bar Completo2_16: 5814294780235069724
+      Insulina_Bar Completo2_17: 4360674178451001319
+      Insulina_Bar Completo2_18: -8219305184639984380
+      Insulina_Bar Completo2_19: 2466819151643189210
+      Insulina_Bar Completo2_2: 3012940682743995493
+      Insulina_Bar Completo2_20: 7217675254713568549
+      Insulina_Bar Completo2_21: -5333280508604622801
+      Insulina_Bar Completo2_22: 6836642478445282905
+      Insulina_Bar Completo2_23: 4853166842712975796
+      Insulina_Bar Completo2_24: -3453035297342236103
+      Insulina_Bar Completo2_25: -3625009850819439237
+      Insulina_Bar Completo2_26: 9023650343418090416
+      Insulina_Bar Completo2_27: 1932346116906690687
+      Insulina_Bar Completo2_28: 1713842762974188760
+      Insulina_Bar Completo2_29: 5053987749968642256
+      Insulina_Bar Completo2_3: -2815384046481884312
+      Insulina_Bar Completo2_30: 162026702230582811
+      Insulina_Bar Completo2_4: -4035708566509764304
+      Insulina_Bar Completo2_5: 6704222842733686244
+      Insulina_Bar Completo2_6: -650920616798671214
+      Insulina_Bar Completo2_7: -7360133340065313534
+      Insulina_Bar Completo2_8: -4566380928731989611
+      Insulina_Bar Completo2_9: 5448254681501589047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

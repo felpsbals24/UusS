@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 21834d940ff9d6e408ce82d3004d0d6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7403267182383338200
+    second: Insulina_Bar ApenasVida_0
+  - first:
+      213: -7233154653896377920
+    second: Insulina_Bar ApenasVida_1
+  - first:
+      213: 2056766059172181719
+    second: Insulina_Bar ApenasVida_2
+  - first:
+      213: -1824543619262187306
+    second: Insulina_Bar ApenasVida_3
+  - first:
+      213: -8002532372250013591
+    second: Insulina_Bar ApenasVida_4
+  - first:
+      213: -406460006534421097
+    second: Insulina_Bar ApenasVida_5
+  - first:
+      213: -8661840147082641783
+    second: Insulina_Bar ApenasVida_6
+  - first:
+      213: 5582445905254405152
+    second: Insulina_Bar ApenasVida_7
+  - first:
+      213: -6213833702751652343
+    second: Insulina_Bar ApenasVida_8
+  - first:
+      213: -3122949325984569635
+    second: Insulina_Bar ApenasVida_9
+  - first:
+      213: 3914602722828274944
+    second: Insulina_Bar ApenasVida_10
+  - first:
+      213: -9155298912249975792
+    second: Insulina_Bar ApenasVida_11
+  - first:
+      213: -3510108391166620580
+    second: Insulina_Bar ApenasVida_12
+  - first:
+      213: -1576101181319757399
+    second: Insulina_Bar ApenasVida_13
+  - first:
+      213: 3969785759401352782
+    second: Insulina_Bar ApenasVida_14
+  - first:
+      213: -8778863052433581606
+    second: Insulina_Bar ApenasVida_15
+  - first:
+      213: -3011836590636074992
+    second: Insulina_Bar ApenasVida_16
+  - first:
+      213: 2936053518368781527
+    second: Insulina_Bar ApenasVida_17
+  - first:
+      213: 5990993483606369643
+    second: Insulina_Bar ApenasVida_18
+  - first:
+      213: 57882516725854369
+    second: Insulina_Bar ApenasVida_19
+  - first:
+      213: 3969490387233729450
+    second: Insulina_Bar ApenasVida_20
+  - first:
+      213: -6860329396664193577
+    second: Insulina_Bar ApenasVida_21
+  - first:
+      213: -6226809007603303110
+    second: Insulina_Bar ApenasVida_22
+  - first:
+      213: 3969880761542398760
+    second: Insulina_Bar ApenasVida_23
+  - first:
+      213: 5735152813513591134
+    second: Insulina_Bar ApenasVida_24
+  - first:
+      213: 1883942463830324637
+    second: Insulina_Bar ApenasVida_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 21
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d214473740bdb660800000000000000
+      internalID: 7403267182383338200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 21
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9fa094a2cae9b90800000000000000
+      internalID: -7233154653896377920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 21
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6b90765d91b8c10800000000000000
+      internalID: 2056766059172181719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 21
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8fba0ce3beda6e0800000000000000
+      internalID: -1824543619262187306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_4
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 21
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9605978e43b41f090800000000000000
+      internalID: -8002532372250013591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_5
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 21
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795ec1f07c6fb5af0800000000000000
+      internalID: -406460006534421097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_6
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 21
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98efbe35746fac780800000000000000
+      internalID: -8661840147082641783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 21
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024d58849f4d87d40800000000000000
+      internalID: 5582445905254405152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_8
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 21
+        width: 108
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906332e6b2704c9a0800000000000000
+      internalID: -6213833702751652343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_9
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 21
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6e425522e09a4d0800000000000000
+      internalID: -3122949325984569635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_10
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 21
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dc4fa9f66735630800000000000000
+      internalID: 3914602722828274944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_11
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 21
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ce1da6528d1f080800000000000000
+      internalID: -9155298912249975792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_12
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 21
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c456df307994fc0800000000000000
+      internalID: -3510108391166620580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 21
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1cc5d7350902ae0800000000000000
+      internalID: -1576101181319757399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_14
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 21
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e95878d13871730800000000000000
+      internalID: 3969785759401352782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_15
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 21
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad915e3f0963b2680800000000000000
+      internalID: -8778863052433581606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_16
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 21
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018fc95049ec336d0800000000000000
+      internalID: -3011836590636074992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_17
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 21
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d438eb7e15feb820800000000000000
+      internalID: 2936053518368781527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_18
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 21
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65a90ae4d8442350800000000000000
+      internalID: 5990993483606369643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_19
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 21
+        width: 104
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a07620a7d3adc000800000000000000
+      internalID: 57882516725854369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_20
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 21
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabe466d976761730800000000000000
+      internalID: 3969490387233729450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_21
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 21
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd29a5e2c63bc0a0800000000000000
+      internalID: -6860329396664193577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_22
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 21
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d3a99d23ee599a0800000000000000
+      internalID: -6226809007603303110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_23
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 21
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8235460f489d71730800000000000000
+      internalID: 3969880761542398760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_24
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 21
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e594f06091b579f40800000000000000
+      internalID: 5735152813513591134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Insulina_Bar ApenasVida_25
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 21
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9571e570bb152a10800000000000000
+      internalID: 1883942463830324637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Insulina_Bar ApenasVida_0: 7403267182383338200
+      Insulina_Bar ApenasVida_1: -7233154653896377920
+      Insulina_Bar ApenasVida_10: 3914602722828274944
+      Insulina_Bar ApenasVida_11: -9155298912249975792
+      Insulina_Bar ApenasVida_12: -3510108391166620580
+      Insulina_Bar ApenasVida_13: -1576101181319757399
+      Insulina_Bar ApenasVida_14: 3969785759401352782
+      Insulina_Bar ApenasVida_15: -8778863052433581606
+      Insulina_Bar ApenasVida_16: -3011836590636074992
+      Insulina_Bar ApenasVida_17: 2936053518368781527
+      Insulina_Bar ApenasVida_18: 5990993483606369643
+      Insulina_Bar ApenasVida_19: 57882516725854369
+      Insulina_Bar ApenasVida_2: 2056766059172181719
+      Insulina_Bar ApenasVida_20: 3969490387233729450
+      Insulina_Bar ApenasVida_21: -6860329396664193577
+      Insulina_Bar ApenasVida_22: -6226809007603303110
+      Insulina_Bar ApenasVida_23: 3969880761542398760
+      Insulina_Bar ApenasVida_24: 5735152813513591134
+      Insulina_Bar ApenasVida_25: 1883942463830324637
+      Insulina_Bar ApenasVida_3: -1824543619262187306
+      Insulina_Bar ApenasVida_4: -8002532372250013591
+      Insulina_Bar ApenasVida_5: -406460006534421097
+      Insulina_Bar ApenasVida_6: -8661840147082641783
+      Insulina_Bar ApenasVida_7: 5582445905254405152
+      Insulina_Bar ApenasVida_8: -6213833702751652343
+      Insulina_Bar ApenasVida_9: -3122949325984569635
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

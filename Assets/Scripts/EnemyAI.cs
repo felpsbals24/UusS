@@ -52,9 +52,19 @@ public class EnemyAI : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !atacou)
         {
             atacou = true;
-            SistemaDeVida vidaPlayer = collision.gameObject.GetComponent<SistemaDeVida>();
-            if (vidaPlayer != null) vidaPlayer.ReceberAcucar(quantidadeAcucar);
-            if (saude != null) saude.TomarDano(9999);
+
+            
+            PlayerHealth vidaPlayer = collision.gameObject.GetComponent<PlayerHealth>();
+            if (vidaPlayer != null)
+            {
+                 
+                vidaPlayer.ReceberDano(quantidadeAcucar);
+            }
+
+            if (saude != null)
+            {
+                saude.TomarDano(9999);
+            }
         }
     }
 }
