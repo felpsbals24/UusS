@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cerebro_Shield
+  m_Controller: {fileID: 9100000, guid: 091b6c36842d6624f84dfb232356b807, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1f49e2f4b16b0d34e82334c68d9b0909, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: afcb81a9dbd22fc4ea0eb0144fddc169, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d1c3bc3f4a845f34bb0f27435ce8b652, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 93e70981574c7fd4e95c2a7828e38792, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: eba2ec1d7529d704d9fad0f9bccdc906, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1e0cc375b0f7fe946886d6364d6d70d3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7da3030dba7f7fa47a90b9ea22f444e5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 40bf69e6111316f47be4febb769fe2a3, type: 2}
