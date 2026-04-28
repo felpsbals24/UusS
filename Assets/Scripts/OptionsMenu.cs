@@ -35,4 +35,15 @@ public class OptionsMenu : MonoBehaviour
             musicaFundo.volume = volume;
         }
     }
+    // Função para o botão de SAIR do Menu Principal
+    public void FecharJogo()
+    {
+        // Fecha o jogo compilado
+        Application.Quit();
+
+        // Para o Play dentro do Unity pra você testar
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
 }

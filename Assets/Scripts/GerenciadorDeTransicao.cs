@@ -1,66 +1,76 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Essencial para mudar de cena
-using UnityEngine.UI; // Essencial para mexer na imagem preta
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GerenciadorDeTransicao : MonoBehaviour
 {
     [Header("Configurações")]
     public Image telaPreta;
-    public float tempoDeTransicao = 3f; // Seus 3 segundos de atraso/fade
+    public float tempoDeTransicao = 3f;
 
     void Start()
     {
-        // Assim que a cena abre, a tela começa preta e vai clareando
         if (telaPreta != null)
         {
             StartCoroutine(FadeIn());
         }
     }
 
-    // Você vai chamar essa função nos seus botões (Jogar, Sair, etc)
+    // Função antiga que você já usava (para Iniciar o jogo, etc)
     public void MudarDeCena(string nomeDaProximaCena)
     {
+        Time.timeScale = 1f; // Despausa o jogo por garantia
         StartCoroutine(FadeOutE_Mudar(nomeDaProximaCena));
+    }
+
+    // --- NOVA FUNÇÃO --- 
+    // Feita só pro seu botão de Sair do Pause!
+    public void VoltarParaMenu()
+    {
+        Time.timeScale = 1f; // Tira o pause do jogo
+        StartCoroutine(FadeOutE_Mudar("Menu")); // Já carrega o Menu direto
     }
 
     IEnumerator FadeIn()
     {
         telaPreta.gameObject.SetActive(true);
-        telaPreta.color = new Color(0, 0, 0, 1); // Alpha 1 (Totalmente preto)
+        telaPreta.color = new Color(0, 0, 0, 1);
 
         float tempoDecorrido = 0;
         while (tempoDecorrido < tempoDeTransicao)
         {
-            tempoDecorrido += Time.deltaTime;
-            // Vai reduzindo o Alpha de 1 para 0
+            // unscaledDeltaTime faz a animação rodar MESMO com o jogo pausado!
+            tempoDecorrido += Time.unscaledDeltaTime;
+
             float alpha = Mathf.Lerp(1, 0, tempoDecorrido / tempoDeTransicao);
             telaPreta.color = new Color(0, 0, 0, alpha);
 
-            yield return null; // Espera o próximo frame
+            yield return null;
         }
 
-        // Desativa a tela preta no final para não bloquear seus cliques
         telaPreta.gameObject.SetActive(false);
     }
 
     IEnumerator FadeOutE_Mudar(string nomeDaCena)
     {
         telaPreta.gameObject.SetActive(true);
-        telaPreta.color = new Color(0, 0, 0, 0); // Alpha 0 (Transparente)
+        telaPreta.color = new Color(0, 0, 0, 0);
 
         float tempoDecorrido = 0;
         while (tempoDecorrido < tempoDeTransicao)
         {
-            tempoDecorrido += Time.deltaTime;
-            // Vai aumentando o Alpha de 0 para 1
+            // unscaledDeltaTime aqui de novo para garantir a saída suave
+            tempoDecorrido += Time.unscaledDeltaTime;
+
             float alpha = Mathf.Lerp(0, 1, tempoDecorrido / tempoDeTransicao);
             telaPreta.color = new Color(0, 0, 0, alpha);
 
-            yield return null; // Espera o próximo frame
+            yield return null;
         }
 
-        // Depois que a tela ficou 100% preta e passou os 3 segundos, carrega a cena!
+        // Garante que o Menu Principal vai começar despausado
+        Time.timeScale = 1f;
         SceneManager.LoadScene(nomeDaCena);
     }
 }
