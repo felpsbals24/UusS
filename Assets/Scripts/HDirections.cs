@@ -38,6 +38,13 @@ public class HDirections : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = movimento * velocidadeMovimento;
+        float velocidadeAtual = velocidadeMovimento;
+
+        if (AtributosAilone.instancia != null)
+        {
+            velocidadeAtual *= AtributosAilone.instancia.multiplicadorVelocidadeAilone;
+        }
+
+        rb.linearVelocity = movimento * velocidadeAtual;
     }
 }

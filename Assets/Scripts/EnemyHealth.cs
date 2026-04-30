@@ -5,6 +5,8 @@ public class EnemyHealth : MonoBehaviour
     public int vidaMaxima = 10;
     private int vidaAtual;
 
+    public GameObject pirulitoPrefab;
+
     private Animator animator;
     private bool isDying = false;
 
@@ -29,6 +31,11 @@ public class EnemyHealth : MonoBehaviour
     void Morrer()
     {
         isDying = true;
+
+        if (pirulitoPrefab != null)
+        {
+            Instantiate(pirulitoPrefab, transform.position, Quaternion.identity);
+        }
 
         if (animator != null)
         {

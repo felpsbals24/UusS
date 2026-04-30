@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492edc979725b0549b527070d3c86fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OptionsMenu
-  optionsPanel: {fileID: 0}
+  optionsPanel: {fileID: 2563269439184106505, guid: c0903dfe1a50f644fb6c56957de90101, type: 3}
   musicaFundo: {fileID: 0}

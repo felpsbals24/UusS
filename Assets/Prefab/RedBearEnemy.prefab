@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   vidaMaxima: 12
+  pirulitoPrefab: {fileID: 6108199635354183776, guid: 144b2bc083ea14341910d685e79e4b0e, type: 3}
 --- !u!1 &8729111089274292064
 GameObject:
   m_ObjectHideFlags: 0

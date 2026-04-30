@@ -17,19 +17,16 @@ public class GerenciadorDeTransicao : MonoBehaviour
         }
     }
 
-    // Função antiga que você já usava (para Iniciar o jogo, etc)
     public void MudarDeCena(string nomeDaProximaCena)
     {
-        Time.timeScale = 1f; // Despausa o jogo por garantia
         StartCoroutine(FadeOutE_Mudar(nomeDaProximaCena));
     }
 
-    // --- NOVA FUNÇÃO --- 
-    // Feita só pro seu botão de Sair do Pause!
+    // --- A FUNÇÃO DE SAIR (CORRIGIDA) ---
     public void VoltarParaMenu()
     {
-        Time.timeScale = 1f; // Tira o pause do jogo
-        StartCoroutine(FadeOutE_Mudar("Menu")); // Já carrega o Menu direto
+        // O jogo CONTINUA pausado aqui, nada se mexe!
+        StartCoroutine(FadeOutE_Mudar("Menu"));
     }
 
     IEnumerator FadeIn()
@@ -40,12 +37,9 @@ public class GerenciadorDeTransicao : MonoBehaviour
         float tempoDecorrido = 0;
         while (tempoDecorrido < tempoDeTransicao)
         {
-            // unscaledDeltaTime faz a animação rodar MESMO com o jogo pausado!
             tempoDecorrido += Time.unscaledDeltaTime;
-
             float alpha = Mathf.Lerp(1, 0, tempoDecorrido / tempoDeTransicao);
             telaPreta.color = new Color(0, 0, 0, alpha);
-
             yield return null;
         }
 
@@ -60,16 +54,13 @@ public class GerenciadorDeTransicao : MonoBehaviour
         float tempoDecorrido = 0;
         while (tempoDecorrido < tempoDeTransicao)
         {
-            // unscaledDeltaTime aqui de novo para garantir a saída suave
             tempoDecorrido += Time.unscaledDeltaTime;
-
             float alpha = Mathf.Lerp(0, 1, tempoDecorrido / tempoDeTransicao);
             telaPreta.color = new Color(0, 0, 0, alpha);
-
             yield return null;
         }
 
-        // Garante que o Menu Principal vai começar despausado
+        // Só devolve o tempo ao normal AGORA, na hora de carregar a próxima cena!
         Time.timeScale = 1f;
         SceneManager.LoadScene(nomeDaCena);
     }

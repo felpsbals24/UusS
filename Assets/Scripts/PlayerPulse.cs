@@ -7,7 +7,6 @@ public class PlayerPulse : MonoBehaviour
     public int danoDoPulso = 5;
     public float intervalo = 3f;
 
-    
     public GameObject vfxDoPulso;
 
     void Start()
@@ -19,22 +18,26 @@ public class PlayerPulse : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(intervalo);
+            float intervaloAtual = intervalo;
+
+            if (AtributosAilone.instancia != null)
+            {
+                intervaloAtual /= AtributosAilone.instancia.multiplicadorVelocidadeOnda;
+            }
+
+            yield return new WaitForSeconds(intervaloAtual);
             ExecutarPulso();
         }
     }
 
     void ExecutarPulso()
     {
-        
         if (vfxDoPulso != null)
         {
-          
             GameObject vfx = Instantiate(vfxDoPulso, transform.position, Quaternion.identity);
             Destroy(vfx, 1.0f);
         }
 
-        
         Collider2D[] inimigosAtingidos = Physics2D.OverlapCircleAll(transform.position, raioDoPulso);
 
         foreach (Collider2D col in inimigosAtingidos)

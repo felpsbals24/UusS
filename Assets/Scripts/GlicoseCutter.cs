@@ -1,19 +1,24 @@
 using UnityEngine;
 
-public class GlicoseCutter: MonoBehaviour
+public class GlicoseCutter : MonoBehaviour
 {
-    public float velocidadeGiro = 150f; // Velocidade da rotação
-    public int danoDaArma = 15; // Dano que a espada dá nos ursos
+    public float velocidadeGiro = 150f;
+    public int danoDaArma = 15;
 
     void Update()
     {
-        // Gira o objeto infinitamente no eixo Z
-        transform.Rotate(0, 0, velocidadeGiro * Time.deltaTime);
+        float velocidadeAtual = velocidadeGiro;
+
+        if (AtributosAilone.instancia != null)
+        {
+            velocidadeAtual *= AtributosAilone.instancia.multiplicadorVelocidadeCortadora;
+        }
+
+        transform.Rotate(0, 0, velocidadeAtual * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Se a espada bater em alguém que tem vida (os ursos)
         EnemyHealth inimigo = collision.GetComponent<EnemyHealth>();
         if (inimigo != null)
         {
