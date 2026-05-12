@@ -4740,6 +4740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteracao
   balaoDeFala: {fileID: 533560767}
   prefabArmaOrbital: {fileID: 1234091369180670954, guid: 874246ebc3e94454ea7492438cc2cfa1, type: 3}
+  nivelNecessario: 2
 --- !u!1 &1183054978
 GameObject:
   m_ObjectHideFlags: 0

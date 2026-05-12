@@ -8,6 +8,9 @@ public class NPCInteracao : MonoBehaviour
     [Header("Sistema")]
     public GameObject prefabArmaOrbital;
 
+    // --- NOVA VARIÁVEL AQUI ---
+    public int nivelNecessario = 2;
+
     private bool playerPerto = false;
     private bool jaEntregou = false;
 
@@ -19,10 +22,22 @@ public class NPCInteracao : MonoBehaviour
 
     void Update()
     {
-        // Quando o player tá perto e aperta E, ele chama o método lá de baixo
+        // Quando o player tá perto e aperta E, ele checa o nível antes de entregar
         if (playerPerto && !jaEntregou && Input.GetKeyDown(KeyCode.E))
         {
-            EntregarArma();
+            // Puxamos a instância do seu gerenciador para ver o nível atual do Ailone
+            if (GerenciadorDeProgresso.instancia != null)
+            {
+                if (GerenciadorDeProgresso.instancia.nivelAtual >= nivelNecessario)
+                {
+                    EntregarArma();
+                }
+                else
+                {
+                    // Feedback no console pra você saber que a trava funcionou!
+                    Debug.Log("Ailone tá no nível " + GerenciadorDeProgresso.instancia.nivelAtual + ". Precisa estar no nível " + nivelNecessario + "!");
+                }
+            }
         }
     }
 
