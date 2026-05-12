@@ -88,4 +88,6 @@ public class WaveSpawner : MonoBehaviour
             bearsSpawned++;
         }
     }
+
+
 }
