@@ -38,6 +38,16 @@ public class PlayerPulse : MonoBehaviour
             Destroy(vfx, 1.0f);
         }
 
+        // --- NOVO: CÁLCULO DO DANO COM BUFF ---
+        int danoFinal = danoDoPulso;
+
+        if (AtributosAilone.instancia != null)
+        {
+            // Multiplica o dano base pelo multiplicador e arredonda para virar inteiro
+            danoFinal = Mathf.RoundToInt(danoDoPulso * AtributosAilone.instancia.multiplicadorDanoOnda);
+        }
+        // --------------------------------------
+
         Collider2D[] inimigosAtingidos = Physics2D.OverlapCircleAll(transform.position, raioDoPulso);
 
         foreach (Collider2D col in inimigosAtingidos)
@@ -45,7 +55,7 @@ public class PlayerPulse : MonoBehaviour
             EnemyHealth hp = col.GetComponent<EnemyHealth>();
             if (hp != null)
             {
-                hp.TomarDano(danoDoPulso);
+                hp.TomarDano(danoFinal); // Usa a variável nova que tem o buff aplicado!
             }
         }
     }

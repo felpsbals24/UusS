@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; // ADICIONADO: Necessário para controlar textos do TextMeshPro
 
 public class GerenciadorDeProgresso : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class GerenciadorDeProgresso : MonoBehaviour
     public Image imagemBarra;
     public Sprite[] spritesDaBarra;
 
+    // --- NOVA VARIÁVEL ENTRA AQUI ---
+    [Header("Interface do Nível")]
+    public TextMeshProUGUI textoNivel; // Arraste o texto do nível para cá no Unity
+
     void Awake()
     {
         if (instancia == null)
@@ -22,6 +27,12 @@ public class GerenciadorDeProgresso : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    void Start()
+    {
+        // Garante que o texto comece certo assim que o jogo iniciar
+        AtualizarTextoNivel();
     }
 
     public void AdicionarXP(int quantidadeXP)
@@ -42,6 +53,9 @@ public class GerenciadorDeProgresso : MonoBehaviour
                 xpAtual -= xpNecessario;
                 nivelAtual++;
 
+                // --- ATUALIZA O TEXTO QUANDO O NÍVEL SUBIR ---
+                AtualizarTextoNivel();
+
                 if (GerenciadorDeLevelUp.instancia != null)
                 {
                     GerenciadorDeLevelUp.instancia.MostrarCartas();
@@ -51,6 +65,19 @@ public class GerenciadorDeProgresso : MonoBehaviour
             }
         }
     }
+
+    // --- NOVA FUNÇÃO PARA EXIBIR O NÍVEL NA TELA ---
+    void AtributosAilone() { } // Apenas mantendo referência visual
+
+    void AtualizarTextoNivel()
+    {
+        if (textoNivel != null)
+        {
+            textoNivel.text = "LV. " + nivelAtual;  
+        }
+    }
+
+    void Blueprints() { }
 
     void AtualizarBarra()
     {

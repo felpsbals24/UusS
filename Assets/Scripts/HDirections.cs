@@ -100,4 +100,9 @@ public class HDirections : MonoBehaviour
         yield return new WaitForSeconds(tempoDeRecarga);
         podeDarDash = true;
     }
+    public void DiminuirCooldownDash(float reducao)
+    {
+        tempoDeRecarga -= reducao;
+        if (tempoDeRecarga < 0.2f) tempoDeRecarga = 0.2f; // Limite mínimo para ele não ficar infinito
+    }
 }

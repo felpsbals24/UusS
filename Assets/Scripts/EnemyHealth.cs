@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
     private int vidaAtual;
 
     public GameObject pirulitoPrefab;
+    public GameObject prefabDanoFlutuante;
 
     private Animator animator;
     private bool isDying = false;
@@ -21,6 +22,16 @@ public class EnemyHealth : MonoBehaviour
         if (isDying) return;
 
         vidaAtual -= dano;
+
+         
+        if (prefabDanoFlutuante != null)
+        {
+             
+            GameObject textoDano = Instantiate(prefabDanoFlutuante, transform.position, Quaternion.identity);
+             
+            textoDano.GetComponent<DanoFlutuante>().ConfigurarDano(dano);
+        }
+       
 
         if (vidaAtual <= 0)
         {
