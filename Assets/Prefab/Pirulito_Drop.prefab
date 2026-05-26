@@ -80,8 +80,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1613594645
+  m_SortingLayer: 3
   m_SortingOrder: 100
   m_Sprite: {fileID: -8784633540358930255, guid: 040318a87ad338e48bf97a511341ffbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 139ce583098dc46408b0361b027a6be4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemPirulito
+  valorXP: 5
   gatilhoRangeDetecao: {fileID: 6104919215515567274}
   colisorFisicoPequeno: {fileID: 1921208739634586580}
   velocidadePerseguicao: 15

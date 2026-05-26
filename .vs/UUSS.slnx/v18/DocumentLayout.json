@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "E:\\Unity\\Projetos\\UUSS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\baldeprojetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baldeprojetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\ataquebaldegelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ataquebaldegelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\pirulitodourado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pirulitodourado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\npcloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\pocaacidogelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pocaacidogelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\carteiraailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carteiraailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\gerenciadordeprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordeprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\hdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\danoflutuante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,11 +106,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BaldeProjetil.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BaldeProjetil.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BaldeProjetil.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BaldeProjetil.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BaldeProjetil.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:23:56.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NPCLoja.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\NPCLoja.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCLoja.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\NPCLoja.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCLoja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:37:50.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PocaAcidoGelatina.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PocaAcidoGelatina.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PocaAcidoGelatina.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PocaAcidoGelatina.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PocaAcidoGelatina.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:29:00.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AtaqueBaldeGelatina.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtaqueBaldeGelatina.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AtaqueBaldeGelatina.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtaqueBaldeGelatina.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AtaqueBaldeGelatina.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:25:54.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PirulitoDourado.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PirulitoDourado.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PirulitoDourado.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PirulitoDourado.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PirulitoDourado.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:15:20.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarteiraAilone.cs",
+              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CarteiraAilone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarteiraAilone.cs",
+              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CarteiraAilone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarteiraAilone.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:11:15.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GerenciadorDeProgresso.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeProgresso.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeProgresso.cs",
@@ -99,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "PlayerPulse.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PlayerPulse.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerPulse.cs",
@@ -107,12 +213,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerPulse.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAwDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T14:05:03.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T14:05:03.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "AtributosAilone.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtributosAilone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AtributosAilone.cs",
@@ -120,16 +225,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AtributosAilone.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T14:04:09.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "WhenOpened": "2026-05-19T14:04:09.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "GerenciadorDeLevelUp.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeLevelUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeLevelUp.cs",
@@ -137,25 +237,24 @@
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorDeLevelUp.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAYwHYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T13:41:07.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T13:41:07.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
               "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T13:30:28.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "DanoFlutuante.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DanoFlutuante.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DanoFlutuante.cs",
@@ -163,12 +262,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DanoFlutuante.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T12:56:00.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T12:56:00.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
@@ -176,12 +274,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAYwGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T14:10:22.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T14:10:22.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "HDirections.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\HDirections.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HDirections.cs",
@@ -189,12 +286,11 @@
               "RelativeToolTip": "Assets\\Scripts\\HDirections.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAcwGoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:57:28.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T13:57:28.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "GerenciadorDeFase.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeFase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeFase.cs",
@@ -206,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
@@ -218,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "EnemyBearController.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyBearController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBearController.cs",
@@ -230,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -242,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "GerenciadorDeJogo.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeJogo.cs",
@@ -254,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "DeathEnemy.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DeathEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeathEnemy.cs",
@@ -266,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -278,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Movement.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
@@ -290,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
@@ -302,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "BearEnemy.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BearEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BearEnemy.cs",

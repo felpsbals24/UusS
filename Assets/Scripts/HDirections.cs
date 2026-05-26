@@ -69,10 +69,19 @@ public class HDirections : MonoBehaviour
         }
 
         float velocidadeAtual = velocidadeMovimento;
-        if (AtributosAilone.instancia != null)
+
+        // --- INÍCIO DA MUDANÇA DO DEV MODE ---
+        if (DevModeManager.superVelocidade)
         {
+            // Se o cheat de velocidade estiver ativo, ele ignora tudo e anda muito rápido
+            velocidadeAtual = 15f;
+        }
+        else if (AtributosAilone.instancia != null)
+        {
+            // Se o cheat estiver desligado, ele calcula a velocidade normal com os buffs
             velocidadeAtual *= AtributosAilone.instancia.multiplicadorVelocidadeAilone;
         }
+        // --- FIM DA MUDANÇA DO DEV MODE ---
 
         rb.linearVelocity = movimento * velocidadeAtual;
     }

@@ -7,6 +7,8 @@ public class EnemyHealth : MonoBehaviour
 
     public GameObject pirulitoPrefab;
     public GameObject prefabDanoFlutuante;
+    public GameObject prefabPirulitoDourado;
+    [Range(0, 100)] public float chanceDropMoeda = 25f;
 
     private Animator animator;
     private bool isDying = false;
@@ -68,6 +70,10 @@ public class EnemyHealth : MonoBehaviour
         if (ia != null)
         {
             ia.enabled = false;
+        }
+        if (Random.Range(0f, 100f) <= chanceDropMoeda && prefabPirulitoDourado != null)
+        {
+            Instantiate(prefabPirulitoDourado, transform.position, Quaternion.identity);
         }
 
         Destroy(gameObject, 1.5f);

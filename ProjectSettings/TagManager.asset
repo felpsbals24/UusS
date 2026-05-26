@@ -42,5 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fundo
+    uniqueID: 1134606723
+    locked: 0
+  - name: Chao_efeitos
+    uniqueID: 406339305
+    locked: 0
+  - name: Itens
+    uniqueID: 2681372651
+    locked: 0
+  - name: Personagens
+    uniqueID: 4124055145
+    locked: 0
+  - name: Voadores
+    uniqueID: 1563413025
+    locked: 0
   m_RenderingLayers:
   - Default

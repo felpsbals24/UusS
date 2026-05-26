@@ -36,6 +36,8 @@ public class PlayerHealth : MonoBehaviour
         AtualizarVisualDaSeringa();
 
         if (vidaAtual == 0) Morrer();
+
+        if (DevModeManager.imortal) return; // Ignora o dano se o cheat estiver ligado!
     }
 
     public void Curar(float quantidade)

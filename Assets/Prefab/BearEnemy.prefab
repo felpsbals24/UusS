@@ -82,8 +82,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -170912151
+  m_SortingLayer: 4
   m_SortingOrder: 98
   m_Sprite: {fileID: -6014571485054149741, guid: 1e53f1f8c9b72f44bb69dbda0e05e0e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -212,6 +212,8 @@ MonoBehaviour:
   vidaMaxima: 10
   pirulitoPrefab: {fileID: 6108199635354183776, guid: 144b2bc083ea14341910d685e79e4b0e, type: 3}
   prefabDanoFlutuante: {fileID: 3805707373534802080, guid: 9e88315a32c52b04bb0dda89f341837b, type: 3}
+  prefabPirulitoDourado: {fileID: 1608118909844255336, guid: 13ae1756449cf354faf3fbfa97ba950f, type: 3}
+  chanceDropMoeda: 6
 --- !u!1 &8729111089274292064
 GameObject:
   m_ObjectHideFlags: 0
