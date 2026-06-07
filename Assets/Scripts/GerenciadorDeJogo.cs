@@ -48,8 +48,28 @@ public class GerenciadorDeJogo : MonoBehaviour
         if (inimigosRestantes <= 0)
         {
             inimigosRestantes = 0;
-            ondaAtual++; // Subiu a onda, logo venceu a anterior
+            int ondaQueAcabou = ondaAtual; // Salva o número da onda que acabou de ser limpa
+            ondaAtual++; // Prepara para a próxima (se houver)
+
+            AtualizarTexto(); // Atualiza a HUD pra mostrar 0 inimigos antes de congelar
+
+            // --- NOSSO GATILHO NA PORTA DE SAÍDA ---
+            if (GerenciadorDeFase.instancia != null)
+            {
+                // Avisa que a onda acabou
+                GerenciadorDeFase.instancia.RegistrarOndaConcluida(ondaQueAcabou);
+
+                // Se a onda que acabamos de vencer é igual ou maior que o limite, acaba o jogo AQUI!
+                if (ondaQueAcabou >= GerenciadorDeFase.instancia.ondaMaxima)
+                {
+                    return; // O "return" faz o código parar e não deixa a contagem da próxima onda iniciar!
+                }
+            }
+            // ----------------------------------------
+
+            // Se não for a última onda, segue o jogo normal
             StartCoroutine(ContagemRegressivaProximaOnda());
+            return;
         }
 
         AtualizarTexto();

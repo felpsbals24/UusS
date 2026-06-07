@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Tile_gramaVrdClaro
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 5292120804731225162, guid: 8b3054803b920ea4db7d20cf8750b520, type: 3}
+  - {fileID: 6498984999114238090, guid: c2eafc8e14cd3004fb5aa2ae2d89fcd4, type: 3}
+  - {fileID: 4218242518944993789, guid: 5fdf80a258a60c249943aa7cc12c1700, type: 3}
+  - {fileID: -2974160816537063417, guid: 1b2f3befd83ef7b40a9232f2dcb8fae0, type: 3}
+  - {fileID: 2496690042662319972, guid: 3121e18f198f91343a20161c689c6025, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

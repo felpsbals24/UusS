@@ -7,7 +7,6 @@ public class PlayerPulse : MonoBehaviour
     public int danoDoPulso = 5;
     public float intervalo = 3f;
 
-    
     public GameObject vfxDoPulso;
 
     void Start()
@@ -19,22 +18,33 @@ public class PlayerPulse : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(intervalo);
+            float intervaloAtual = intervalo;
+
+            if (AtributosAilone.instancia != null)
+            {
+                intervaloAtual /= AtributosAilone.instancia.multiplicadorVelocidadeOnda;
+            }
+
+            yield return new WaitForSeconds(intervaloAtual);
             ExecutarPulso();
         }
     }
 
     void ExecutarPulso()
     {
-        
         if (vfxDoPulso != null)
         {
-          
             GameObject vfx = Instantiate(vfxDoPulso, transform.position, Quaternion.identity);
             Destroy(vfx, 1.0f);
         }
 
-        
+        int danoFinal = danoDoPulso;
+
+        if (AtributosAilone.instancia != null)
+        {
+            danoFinal = Mathf.RoundToInt(danoDoPulso * AtributosAilone.instancia.multiplicadorDanoOnda);
+        }
+
         Collider2D[] inimigosAtingidos = Physics2D.OverlapCircleAll(transform.position, raioDoPulso);
 
         foreach (Collider2D col in inimigosAtingidos)
@@ -42,7 +52,13 @@ public class PlayerPulse : MonoBehaviour
             EnemyHealth hp = col.GetComponent<EnemyHealth>();
             if (hp != null)
             {
-                hp.TomarDano(danoDoPulso);
+                hp.TomarDano(danoFinal);
+            }
+
+            BigBoss boss = col.GetComponent<BigBoss>();
+            if (boss != null)
+            {
+                boss.TomarDano(danoFinal);
             }
         }
     }

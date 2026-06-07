@@ -1,0 +1,67 @@
+using UnityEngine;
+
+public class NPCInteracao : MonoBehaviour
+{
+    [Header("Visuais")]
+    public GameObject balaoDeFala;
+
+    [Header("Sistema")]
+    public GameObject prefabArmaOrbital;
+
+    private bool playerPerto = false;
+    private bool jaEntregou = false;
+
+    void Start()
+    {
+        if (balaoDeFala != null)
+            balaoDeFala.SetActive(false);
+    }
+
+    void Update()
+    {
+        // Quando o player tá perto e aperta E, ele chama o método lá de baixo
+        if (playerPerto && !jaEntregou && Input.GetKeyDown(KeyCode.E))
+        {
+            EntregarArma();
+        }
+    }
+
+    // OLHA ELE AQUI! O famoso método EntregarArma:
+    void EntregarArma()
+    {
+        jaEntregou = true;
+        if (balaoDeFala != null) balaoDeFala.SetActive(false);
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null && prefabArmaOrbital != null)
+        {
+            // Cria a arma
+            GameObject novaArma = Instantiate(prefabArmaOrbital, player.transform.position, Quaternion.identity);
+
+            // Gruda ela no Ailone
+            novaArma.transform.SetParent(player.transform);
+
+            // A MARRETADA: Força a arma a ficar no centro (0,0) do Ailone e garante que o Z dela seja 0!
+            novaArma.transform.localPosition = Vector3.zero;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && !jaEntregou)
+        {
+            playerPerto = true;
+            if (balaoDeFala != null) balaoDeFala.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && !jaEntregou)
+        {
+            playerPerto = false;
+            if (balaoDeFala != null) balaoDeFala.SetActive(false);
+        }
+    }
+}
