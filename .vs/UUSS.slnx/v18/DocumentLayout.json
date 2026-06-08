@@ -1,109 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Unity\\Projetos\\UUSS\\",
+  "WorkspaceRootPath": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\playerpulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerpulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\bigboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bigboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\baldeprojetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baldeprojetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\ataquebaldegelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ataquebaldegelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\pirulitodourado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pirulitodourado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\npcloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\npcloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\pocaacidogelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pocaacidogelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\gerenciadorloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadorloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\npcinteracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcinteracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\carteiraailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carteiraailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\gerenciadordeprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordeprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\gerenciadordelevelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordelevelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\atributosailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\atributosailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\hdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\hdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\danoflutuante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\danoflutuante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CarteiraAilone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CarteiraAilone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\gerenciadordefase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordefase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CarteiraAilone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CarteiraAilone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\playermoviment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermoviment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\enemybearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\playerpulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerpulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\bigboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bigboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\baldeprojetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baldeprojetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\ataquebaldegelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ataquebaldegelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\pirulitodourado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pirulitodourado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\pocaacidogelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pocaacidogelatina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\gerenciadordeprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordeprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\gerenciadordelevelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordelevelup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\atributosailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\atributosailone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\danoflutuante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\danoflutuante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\gerenciadordefase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordefase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\enemybearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\deathenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\deathenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BearEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BearEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BearEnemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity\\projetos\\uuss\\assets\\scripts\\gerenciadordejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\kaduff\\documents\\github\\uuss\\assets\\scripts\\gerenciadordejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadordejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -114,7 +129,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,62 +137,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WaveSpawner.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\WaveSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAUwF0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T15:39:08.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BigBoss.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BigBoss.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BigBoss.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BigBoss.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BigBoss.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAAAJkAAAAJAAAAAAAAAA==",
+              "Title": "NPCInteracao.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\NPCInteracao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCInteracao.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\NPCInteracao.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCInteracao.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T14:50:10.824Z",
+              "WhenOpened": "2026-06-07T23:45:13.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaldeProjetil.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BaldeProjetil.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BaldeProjetil.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BaldeProjetil.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BaldeProjetil.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GerenciadorLoja.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorLoja.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorLoja.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorLoja.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GerenciadorLoja.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T19:23:56.129Z",
+              "WhenOpened": "2026-06-07T23:39:35.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "NPCLoja.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\NPCLoja.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCLoja.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\NPCLoja.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NPCLoja.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Title": "PlayerMoviment.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PlayerMoviment.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMoviment.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PlayerMoviment.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMoviment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:37:50.145Z"
+              "WhenOpened": "2026-06-07T23:36:08.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "BaldeProjetil.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\BaldeProjetil.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BaldeProjetil.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\BaldeProjetil.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BaldeProjetil.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:23:56.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NPCLoja.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\NPCLoja.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCLoja.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\NPCLoja.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCLoja.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:37:50.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "PocaAcidoGelatina.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PocaAcidoGelatina.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PocaAcidoGelatina.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PocaAcidoGelatina.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PocaAcidoGelatina.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PocaAcidoGelatina.cs",
               "RelativeToolTip": "Assets\\Scripts\\PocaAcidoGelatina.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,11 +213,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "AtaqueBaldeGelatina.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtaqueBaldeGelatina.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\AtaqueBaldeGelatina.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AtaqueBaldeGelatina.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtaqueBaldeGelatina.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\AtaqueBaldeGelatina.cs",
               "RelativeToolTip": "Assets\\Scripts\\AtaqueBaldeGelatina.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAqwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,11 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "PirulitoDourado.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PirulitoDourado.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PirulitoDourado.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PirulitoDourado.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PirulitoDourado.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PirulitoDourado.cs",
               "RelativeToolTip": "Assets\\Scripts\\PirulitoDourado.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,23 +237,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CarteiraAilone.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CarteiraAilone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CarteiraAilone.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CarteiraAilone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CarteiraAilone.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA6wC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:11:15.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "GerenciadorDeProgresso.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeProgresso.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeProgresso.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeProgresso.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeProgresso.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeProgresso.cs",
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorDeProgresso.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAYwFYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,24 +249,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "PlayerPulse.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PlayerPulse.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PlayerPulse.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerPulse.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PlayerPulse.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PlayerPulse.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerPulse.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAUwEYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T14:05:03.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
+              "Title": "HDirections.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\HDirections.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HDirections.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\HDirections.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HDirections.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T13:57:28.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BigBoss.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\BigBoss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BigBoss.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\BigBoss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BigBoss.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAJkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T14:50:10.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAUwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T15:39:08.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AtributosAilone.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtributosAilone.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\AtributosAilone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AtributosAilone.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\AtributosAilone.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\AtributosAilone.cs",
               "RelativeToolTip": "Assets\\Scripts\\AtributosAilone.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -258,11 +311,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "GerenciadorDeLevelUp.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeLevelUp.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeLevelUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeLevelUp.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeLevelUp.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeLevelUp.cs",
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorDeLevelUp.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAYwHYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -270,11 +323,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAwwEwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -282,11 +335,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "DanoFlutuante.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DanoFlutuante.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\DanoFlutuante.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DanoFlutuante.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DanoFlutuante.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\DanoFlutuante.cs",
               "RelativeToolTip": "Assets\\Scripts\\DanoFlutuante.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -294,11 +347,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAYwGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -306,23 +359,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HDirections.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\HDirections.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HDirections.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\HDirections.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HDirections.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAcwGoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T13:57:28.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "GerenciadorDeFase.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeFase.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeFase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeFase.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeFase.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeFase.cs",
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorDeFase.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAcwEsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -330,11 +371,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "PauseMenu.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAswCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -342,11 +383,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "EnemyBearController.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyBearController.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\EnemyBearController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBearController.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyBearController.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\EnemyBearController.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyBearController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -354,23 +395,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T15:55:32.647Z"
+              "WhenOpened": "2026-03-31T15:55:32.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "GerenciadorDeJogo.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorDeJogo.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\GerenciadorDeJogo.cs",
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorDeJogo.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAcwHUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -378,11 +420,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "DeathEnemy.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DeathEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\DeathEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeathEnemy.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\DeathEnemy.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\DeathEnemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\DeathEnemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,11 +432,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "CameraFollow.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -402,23 +444,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
               "Title": "Movement.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Movement.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\Movement.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T03:44:16.795Z"
+              "WhenOpened": "2026-04-09T03:44:16.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "EnemyAI.cs",
-              "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
-              "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAowE0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -426,15 +469,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "BearEnemy.cs",
               "DocumentMoniker": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BearEnemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BearEnemy.cs",
               "ToolTip": "E:\\Unity\\Projetos\\UUSS\\Assets\\Scripts\\BearEnemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BearEnemy.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAMwCkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T15:34:35.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarteiraAilone.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CarteiraAilone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarteiraAilone.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CarteiraAilone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarteiraAilone.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T22:44:41.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarteiraAilone.cs",
+              "DocumentMoniker": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CarteiraAilone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarteiraAilone.cs",
+              "ToolTip": "C:\\Users\\KaduFF\\Documents\\GitHub\\UusS\\Assets\\Scripts\\CarteiraAilone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarteiraAilone.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:11:15.404Z"
             }
           ]
         }

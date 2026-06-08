@@ -14,16 +14,30 @@ public class NPCLoja : MonoBehaviour
 
     void Update()
     {
-        // Se o player apertar E perto do NPC, abre a interface da loja
+        // Mantém o atalho do teclado para quando estiver testando no PC
         if (playerPerto && Input.GetKeyDown(KeyCode.E))
+        {
+            InteragirComLoja();
+        }
+    }
+
+    // --- NOVA FUNÇÃO PÚBLICA PARA O BOTÃO DO CELULAR ---
+    public void InteragirComLoja()
+    {
+        // SÓ ABRE se o jogador estiver de fato perto do NPC!
+        if (playerPerto)
         {
             if (GerenciadorLoja.instancia != null)
             {
                 GerenciadorLoja.instancia.AbrirLoja();
 
-                // Opcional: esconde o balão de fala de "Aperte E" enquanto a loja tá aberta
+                // Esconde o balão de fala enquanto a loja tá aberta
                 if (balaoDeFala != null) balaoDeFala.SetActive(false);
             }
+        }
+        else
+        {
+            Debug.Log("O Player está longe demais para abrir a loja!");
         }
     }
 

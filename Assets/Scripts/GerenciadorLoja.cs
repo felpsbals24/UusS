@@ -34,6 +34,22 @@ public class GerenciadorLoja : MonoBehaviour
 
     public void AbrirLoja()
     {
+        // Procura o NPC na cena e verifica se o player está perto antes de abrir!
+        NPCLoja npc = Object.FindFirstObjectByType<NPCLoja>();
+
+        // Se achou o NPC e o código dele diz que o player está longe, cancela!
+        if (npc != null)
+        {
+            // Como 'playerPerto' é privado, vamos descobrir se o balão de fala está ativo na cena. 
+            // Se o balão está ativo, significa que o player está perto!
+            if (npc.balaoDeFala != null && !npc.balaoDeFala.activeSelf)
+            {
+                Debug.Log("Bloqueado: O Player não está perto do NPC!");
+                return; // Sai da função e não abre a loja
+            }
+        }
+
+        // Se passou no teste (ou se não achar o NPC para testar), abre a loja normalmente
         painelLoja.SetActive(true);
         Time.timeScale = 0f;
         AtualizarSaldoVisual();

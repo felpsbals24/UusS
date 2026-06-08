@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+// Removemos a linha do OnScreenControls para evitar o erro de namespace!
 
 public class HDirections : MonoBehaviour
 {
@@ -24,23 +25,48 @@ public class HDirections : MonoBehaviour
     // --- NOVA VARIÁVEL DE INVENCIBILIDADE ---
     [HideInInspector] public bool estaInvencivel = false;
 
+    // Usamos 'GameObject' em vez do componente específico para evitar o erro de compilação
+    private GameObject virtualJoystick;
+    private RectTransform joystickAlavancaTransform;
+    private Vector2 joystickInput = Vector2.zero;
+
     private void Awake()
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (animator == null) animator = GetComponent<Animator>();
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // Pega o TrailRenderer e garante que comece desligado
         if (trailRenderer == null) trailRenderer = GetComponent<TrailRenderer>();
         if (trailRenderer != null) trailRenderer.emitting = false;
+
+        // Procura pelo objeto da Alavanca do analógico na cena
+        virtualJoystick = GameObject.Find("Joystick_Alavanca");
+        if (virtualJoystick != null)
+        {
+            joystickAlavancaTransform = virtualJoystick.GetComponent<RectTransform>();
+        }
     }
 
     private void Update()
     {
         if (estaDandoDash) return;
 
-        movimento.x = Input.GetAxisRaw("Horizontal");
-        movimento.y = Input.GetAxisRaw("Vertical");
+        // Calcula a direção baseada na distância da alavanca em relação ao centro (Fundo)
+        if (joystickAlavancaTransform != null && joystickAlavancaTransform.anchoredPosition != Vector2.zero)
+        {
+            // Pega a posição local da alavanca e limita entre -1 and 1
+            joystickInput = joystickAlavancaTransform.anchoredPosition;
+
+            // Supondo que seu Movement Range seja por volta de 50 a 70 pixels, normalizamos o vetor
+            movimento = Vector2.ClampMagnitude(joystickInput / 50f, 1f);
+        }
+        else
+        {
+            // Se não mover o analógico, usa o teclado do PC
+            movimento.x = Input.GetAxisRaw("Horizontal");
+            movimento.y = Input.GetAxisRaw("Vertical");
+        }
+
         movimento = movimento.normalized;
 
         animator.SetFloat("MoveX", movimento.x);
@@ -54,7 +80,15 @@ public class HDirections : MonoBehaviour
             animator.SetFloat("LastMoveY", ultimoMovimento.y);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && podeDarDash && movimento != Vector2.zero)
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TentarExecutarDash();
+        }
+    }
+
+    public void TentarExecutarDash()
+    {
+        if (podeDarDash && movimento != Vector2.zero && !estaDandoDash)
         {
             StartCoroutine(RotinaDeDash());
         }
@@ -70,19 +104,16 @@ public class HDirections : MonoBehaviour
 
         float velocidadeAtual = velocidadeMovimento;
 
-        // --- INÍCIO DA MUDANÇA DO DEV MODE ---
         if (DevModeManager.superVelocidade)
         {
-            // Se o cheat de velocidade estiver ativo, ele ignora tudo e anda muito rápido
             velocidadeAtual = 15f;
         }
         else if (AtributosAilone.instancia != null)
         {
-            // Se o cheat estiver desligado, ele calcula a velocidade normal com os buffs
             velocidadeAtual *= AtributosAilone.instancia.multiplicadorVelocidadeAilone;
         }
-        // --- FIM DA MUDANÇA DO DEV MODE ---
 
+        rb.linearVelocity = movimento * velocidadeAtual; // Corrigido para 'movimento' em português caso use variável local
         rb.linearVelocity = movimento * velocidadeAtual;
     }
 
@@ -90,9 +121,9 @@ public class HDirections : MonoBehaviour
     {
         podeDarDash = false;
         estaDandoDash = true;
-        estaInvencivel = true; // --- FICA INVENCÍVEL ---
+        estaInvencivel = true;
 
-        if (trailRenderer != null) trailRenderer.emitting = true; // --- LIGA O RASTRO ---
+        if (trailRenderer != null) trailRenderer.emitting = true;
 
         Color corOriginal = spriteRenderer.color;
         spriteRenderer.color = corDoVulto;
@@ -100,18 +131,19 @@ public class HDirections : MonoBehaviour
         yield return new WaitForSeconds(tempoDoDash);
 
         estaDandoDash = false;
-        estaInvencivel = false; // --- VOLTA A TOMAR DANO ---
+        estaInvencivel = false;
 
-        if (trailRenderer != null) trailRenderer.emitting = false; // --- DESLIGA O RASTRO ---
+        if (trailRenderer != null) trailRenderer.emitting = false;
 
         spriteRenderer.color = corOriginal;
 
         yield return new WaitForSeconds(tempoDeRecarga);
         podeDarDash = true;
     }
+
     public void DiminuirCooldownDash(float reducao)
     {
         tempoDeRecarga -= reducao;
-        if (tempoDeRecarga < 0.2f) tempoDeRecarga = 0.2f; // Limite mínimo para ele não ficar infinito
+        if (tempoDeRecarga < 0.2f) tempoDeRecarga = 0.2f;
     }
 }
