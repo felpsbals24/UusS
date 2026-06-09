@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\CarteiraAilone.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\PirulitoDourado.cs" />
+    <Compile Include="Assets\Scripts\GerenciadorPlataforma.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\SistemaDeVida.cs" />
