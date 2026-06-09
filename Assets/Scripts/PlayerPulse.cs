@@ -55,11 +55,7 @@ public class PlayerPulse : MonoBehaviour
                 hp.TomarDano(danoFinal);
             }
 
-            BigBoss boss = col.GetComponent<BigBoss>();
-            if (boss != null)
-            {
-                boss.TomarDano(danoFinal);
-            }
+            
         }
     }
 

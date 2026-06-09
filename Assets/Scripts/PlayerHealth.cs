@@ -5,7 +5,7 @@ using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
     public float vidaMaxima = 200f;
-    private float vidaAtual;
+    public float vidaAtual;
 
     public Sprite[] spritesSeringa;
     public Image imagemSeringaUI;
@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Buff de Regeneração")]
     public float quantidadeCura = 15f; // Valor fixo de cura
     public float intervaloRegen = 35f; // Tempo inicial
-    private bool possuiRegen = false;  // Começa desligado
+    public bool possuiRegen = false;  // Começa desligado
 
     void Start()
     {
@@ -24,6 +24,9 @@ public class PlayerHealth : MonoBehaviour
 
     public void ReceberDano(float quantidadeDano)
     {
+        // 1. Checa IMEDIATAMENTE se o cheat tá ligado. Se tiver, cancela tudo!
+        if (DevModeManager.imortal) return;
+
         HDirections scriptMovimento = GetComponent<HDirections>();
 
         if (scriptMovimento != null && scriptMovimento.estaInvencivel)
@@ -31,13 +34,13 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
+        // 2. Só toma dano se for mortal e não estiver no meio do dash
         vidaAtual -= quantidadeDano;
         if (vidaAtual < 0) vidaAtual = 0;
+
         AtualizarVisualDaSeringa();
 
         if (vidaAtual == 0) Morrer();
-
-        if (DevModeManager.imortal) return; // Ignora o dano se o cheat estiver ligado!
     }
 
     public void Curar(float quantidade)

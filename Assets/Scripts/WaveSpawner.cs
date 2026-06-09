@@ -7,9 +7,12 @@ public class ConfiguracaoDaOnda
     public string nomeDaOnda;
     public GameObject[] inimigosDestaOnda;
 
-    // --- NOVA VARIÁVEL AQUI ---
-    [Tooltip("Marque isso se for uma onda de Boss para spawnar apenas 1 inimigo!")]
+    [Header("Configuração de Boss")]
+    [Tooltip("Marque isso se for uma onda de Boss para spawnar o Boss junto com a horda!")]
     public bool eHordaDoBoss = false;
+
+    [Tooltip("Arraste o Prefab do Boss aqui! Ele vai nascer 1 vez no início da onda.")]
+    public GameObject prefabDoBoss;
 }
 
 public class WaveSpawner : MonoBehaviour
@@ -54,18 +57,31 @@ public class WaveSpawner : MonoBehaviour
         nivelDaOndaAtual = onda;
         int indiceDaHorda = nivelDaOndaAtual - 1;
 
-        // --- VERIFICA SE É BOSS ANTES DE DEFINIR A QUANTIDADE ---
+        // --- MUDANÇA AQUI: MATEMÁTICA DO BOSS DO JEITO CERTO ---
         if (indiceDaHorda < hordasCustomizadas.Count && hordasCustomizadas[indiceDaHorda].eHordaDoBoss)
         {
-            maxBears = 1; // Trava em 1 inimigo só!
-            Debug.Log("Onda de Boss detectada! Spawnando apenas 1 inimigo.");
+            // Se tem Boss, a meta total da onda é a quantidade de ursos normais + 1 do Boss!
+            maxBears = quantidadeDeUrsos + 1;
+
+            GameObject boss = hordasCustomizadas[indiceDaHorda].prefabDoBoss;
+            if (boss != null && player != null)
+            {
+                Vector2 direcaoAleatoria = Random.insideUnitCircle.normalized;
+                Vector2 posicaoAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
+                Instantiate(boss, posicaoAleatoria, Quaternion.identity);
+
+                // O Boss já nasceu, então contamos ele como 1 spawnado!
+                bearsSpawned = 1;
+                Debug.Log("Onda de Boss iniciada. Meta aumentada para: " + maxBears);
+            }
         }
         else
         {
-            maxBears = quantidadeDeUrsos; // Segue o jogo normal
+            // Se for onda normal, segue o baile perfeitamente
+            maxBears = quantidadeDeUrsos;
+            bearsSpawned = 0;
         }
 
-        bearsSpawned = 0;
         tempoAtual = 0f;
     }
 

@@ -22,7 +22,9 @@ public class HDirections : MonoBehaviour
     private bool estaDandoDash = false;
     private bool podeDarDash = true;
 
+
     // --- NOVA VARIÁVEL DE INVENCIBILIDADE ---
+    [HideInInspector] public bool tomandoKnockback = false;
     [HideInInspector] public bool estaInvencivel = false;
 
     // Usamos 'GameObject' em vez do componente específico para evitar o erro de compilação
@@ -96,6 +98,9 @@ public class HDirections : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Se tomou uma porrada do Boss, ignora o joystick/teclado e deixa a física agir!
+        if (tomandoKnockback) return;
+
         if (estaDandoDash)
         {
             rb.linearVelocity = ultimoMovimento * forcaDoDash;
@@ -140,7 +145,17 @@ public class HDirections : MonoBehaviour
         yield return new WaitForSeconds(tempoDeRecarga);
         podeDarDash = true;
     }
+    public void AplicarKnockback(float tempo)
+    {
+        StartCoroutine(RotinaKnockback(tempo));
+    }
 
+    private IEnumerator RotinaKnockback(float tempo)
+    {
+        tomandoKnockback = true; // Solta o controle
+        yield return new WaitForSeconds(tempo);
+        tomandoKnockback = false; // Pega o controle de volta
+    }
     public void DiminuirCooldownDash(float reducao)
     {
         tempoDeRecarga -= reducao;

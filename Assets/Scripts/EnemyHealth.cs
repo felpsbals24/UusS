@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int vidaMaxima = 10;
-    private int vidaAtual;
+    public int vidaAtual;
 
     public GameObject pirulitoPrefab;
     public GameObject prefabDanoFlutuante;
