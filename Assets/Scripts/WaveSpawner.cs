@@ -8,10 +8,7 @@ public class ConfiguracaoDaOnda
     public GameObject[] inimigosDestaOnda;
 
     [Header("Configuração de Boss")]
-    [Tooltip("Marque isso se for uma onda de Boss para spawnar o Boss junto com a horda!")]
     public bool eHordaDoBoss = false;
-
-    [Tooltip("Arraste o Prefab do Boss aqui! Ele vai nascer 1 vez no início da onda.")]
     public GameObject prefabDoBoss;
 }
 
@@ -26,6 +23,18 @@ public class WaveSpawner : MonoBehaviour
     [Header("Configurações de Spawn")]
     public float tempoEntreSpawns = 1.5f;
     public float raioDeSpawn = 10f;
+
+    [Header("Limites do Mapa (Clamp)")]
+    public float limiteEsquerdo = -20f;
+    public float limiteDireito = 20f;
+    public float limiteBaixo = -15f;
+    public float limiteCima = 15f;
+
+    [Header("Ajustes Finos")]
+    [Tooltip("Espaço extra da parede para o urso não nascer dentro dela e bugar")]
+    public float margemDeSeguranca = 2f;
+    [Tooltip("Marca isso se quiser que eles nasçam cravados no Grid (ex: 10, 11) em vez de números quebrados (10.5)")]
+    public bool alinharNoGrid = true;
 
     private int maxBears;
     private int bearsSpawned;
@@ -57,27 +66,24 @@ public class WaveSpawner : MonoBehaviour
         nivelDaOndaAtual = onda;
         int indiceDaHorda = nivelDaOndaAtual - 1;
 
-        // --- MUDANÇA AQUI: MATEMÁTICA DO BOSS DO JEITO CERTO ---
         if (indiceDaHorda < hordasCustomizadas.Count && hordasCustomizadas[indiceDaHorda].eHordaDoBoss)
         {
-            // Se tem Boss, a meta total da onda é a quantidade de ursos normais + 1 do Boss!
             maxBears = quantidadeDeUrsos + 1;
 
             GameObject boss = hordasCustomizadas[indiceDaHorda].prefabDoBoss;
             if (boss != null && player != null)
             {
                 Vector2 direcaoAleatoria = Random.insideUnitCircle.normalized;
-                Vector2 posicaoAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
-                Instantiate(boss, posicaoAleatoria, Quaternion.identity);
+                Vector2 posAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
 
-                // O Boss já nasceu, então contamos ele como 1 spawnado!
+                posAleatoria = AplicarLimitesEGrid(posAleatoria);
+
+                Instantiate(boss, posAleatoria, Quaternion.identity);
                 bearsSpawned = 1;
-                Debug.Log("Onda de Boss iniciada. Meta aumentada para: " + maxBears);
             }
         }
         else
         {
-            // Se for onda normal, segue o baile perfeitamente
             maxBears = quantidadeDeUrsos;
             bearsSpawned = 0;
         }
@@ -95,26 +101,39 @@ public class WaveSpawner : MonoBehaviour
         if (indiceDaHorda < hordasCustomizadas.Count)
         {
             GameObject[] listaDaOnda = hordasCustomizadas[indiceDaHorda].inimigosDestaOnda;
-
-            if (listaDaOnda.Length > 0)
-            {
-                prefabParaInstanciar = listaDaOnda[Random.Range(0, listaDaOnda.Length)];
-            }
+            if (listaDaOnda.Length > 0) prefabParaInstanciar = listaDaOnda[Random.Range(0, listaDaOnda.Length)];
         }
         else
         {
-            if (todosOsInimigos.Length > 0)
-            {
-                prefabParaInstanciar = todosOsInimigos[Random.Range(0, todosOsInimigos.Length)];
-            }
+            if (todosOsInimigos.Length > 0) prefabParaInstanciar = todosOsInimigos[Random.Range(0, todosOsInimigos.Length)];
         }
 
         if (prefabParaInstanciar != null)
         {
             Vector2 direcaoAleatoria = Random.insideUnitCircle.normalized;
-            Vector2 posicaoAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
-            Instantiate(prefabParaInstanciar, posicaoAleatoria, Quaternion.identity);
+            Vector2 posAleatoria = (Vector2)player.position + (direcaoAleatoria * raioDeSpawn);
+
+            posAleatoria = AplicarLimitesEGrid(posAleatoria);
+
+            Instantiate(prefabParaInstanciar, posAleatoria, Quaternion.identity);
             bearsSpawned++;
         }
+    }
+
+    // --- NOVA FUNÇÃO QUE FILTRA A POSIÇÃO ---
+    Vector2 AplicarLimitesEGrid(Vector2 posicaoOriginal)
+    {
+        // 1. Aplica o Clamp já recuando o valor com a margem de segurança
+        float xSeguro = Mathf.Clamp(posicaoOriginal.x, limiteEsquerdo + margemDeSeguranca, limiteDireito - margemDeSeguranca);
+        float ySeguro = Mathf.Clamp(posicaoOriginal.y, limiteBaixo + margemDeSeguranca, limiteCima - margemDeSeguranca);
+
+        // 2. Trava no grid exato se a caixinha estiver marcada
+        if (alinharNoGrid)
+        {
+            xSeguro = Mathf.Round(xSeguro);
+            ySeguro = Mathf.Round(ySeguro);
+        }
+
+        return new Vector2(xSeguro, ySeguro);
     }
 }
